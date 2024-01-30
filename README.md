@@ -1,1 +1,1 @@
-# Problem about `Columnar Transposition Cipher` (*CTC*)
+# Problem about *`Columnar Transposition Cipher`* (CTC)
