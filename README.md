@@ -112,7 +112,7 @@ Based on the PFT, we form a **`column pairs list`** (CPL) what contain column pa
 6. Open notebook what you want to run.
 7. Run this notebook in Colab: `Runtime -> Run All`.  Associated data files are mounted automatically (in 2nd cell)
 
-You can load this notebook on your resourse or change this code in a current session, but you don't can write changes in GitHub.
+You can load this notebook on your resourse or change this code in a current session, but you can't write changes in GitHub.
 
 
 
