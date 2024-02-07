@@ -100,7 +100,7 @@ Based on the PFT, we form a **`column pairs list`** (CPL) what contain column pa
     - Data_test_pp - text files for `test` after preprocessing
     - Data_add - additional text files (not used in this project)
     - Parity_tables - contain `.csv` tables,  in particular `parity tables`
-    - 
+
 ---
 ## **How to run**
 
