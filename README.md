@@ -35,7 +35,7 @@ The main idea of this solution is that in natural language the frequency of diff
 This problem is about finding the correct order of columns in a `shuffled pieces table`. It is clear that if you solve this problem by brute-force search, it will take a lot of time, so you need to use a different method.
 
 #### How we do it:
-Based on the choised texts we compilated *`parity tables`* - tables that show number of each letter pairs in the text. 
+Based on the chose texts we compilated *`parity tables`* - tables that show number of each letter pairs in the text. 
 We know that in natural language, different letter pairs occur in different numbers. And we can build corresponding tables of pair coefficients (as will be show). Accordingly, the more a pair occurs, the greater its value in the table. 
 
 Obviously, when we select columns from the **`pieces table`**, the product of *pair coefficients* for a correct column pair will be much larger than for an incorrect pair. So we need to generate a table called the **`Parity Factor Table`** (PFT), which contains all the products of the *pair coefficients* for all column combinations from the *shuffled pieces table*. In this table, there are exactly ***`split size - 1`*** factors that have values that are much larger than others (you can see this on the *Heatmap* and *3D visualization*). These factors correspond to the correct order of columns in the pieces table. 
